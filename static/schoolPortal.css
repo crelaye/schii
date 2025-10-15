@@ -1,0 +1,87 @@
+html,body{
+    overflow: hidden;
+}
+body{
+    background-image: url(/school\ building.jfif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+header{
+    vertical-align: middle;
+}
+#UniName{
+    text-align:left;
+    font-size: 20px;
+    position: absolute;
+    top: -4%;
+    padding-left: 4%;
+    color: gold;
+}
+nav ul{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px ;
+    justify-content: flex-end;
+    position:relative;
+    top: 30%;
+    padding-right: 8%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul :hover{
+    color:gold;
+    border-bottom: 1px solid gold;
+}
+ul a{
+    text-decoration: none;
+    list-style-type: none;
+}
+nav ul a li{
+    color: black;
+    padding: 10px;
+    justify-content: flex-end;
+}
+#space{
+    padding-top: 10%;
+    position: relative;
+    left: 3%;
+}
+.every{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+    position: relative;
+    left: 10px;
+}
+.how{
+    padding-top: 8px;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+}
+.fut{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+}
+.len{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:900;
+    color: white;
+}
+#write{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+p{
+    padding-top: 30px;
+    padding-right: 60px;
+    color:black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
