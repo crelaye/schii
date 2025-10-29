@@ -133,7 +133,8 @@ if(typeof tot.rows === 'undefined'){
  
 app.post('/login', async (req,res)=>{
 const {FirstName,LastName,age,email,password,role,subject} = req.body;
-
+try{
+    
 if(FirstName && LastName && age && email && password && role){
  console.log('Good to go');
 }
@@ -171,6 +172,9 @@ if(passWordMatch){
     }
 }else{
     return res.status(401).send('Error in Logging in ,No available page...')
+}
+}catch(err){
+    console.error("Error in handling login ",err)
 }
 })
 
@@ -569,5 +573,6 @@ async function RunAppL(){
     console.error('Error Over here' + err)
     process.exit(1)
  })
+
 
 
