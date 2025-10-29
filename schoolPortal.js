@@ -26,14 +26,10 @@ app.use(
         secret:'passp'
     })
 )
-
-let pool= new Pool({
-    host:'localhost',
-    database:'erin',
-    password:'passp',
-    user:'erink',
-    port:5432
-})
+let extDBPass='postgresql://schooldb_w271_user:n94edTHowoVY3pyb4TyAzR2AOOIuu9WE@dpg-d40mjmjipnbc73cu5700-a/schooldb_w271'
+const pool = new Pool({
+  connectionString:extDBPass,
+});
 
 app.use(express.urlencoded({extended:true}));
 app.use(express.static(__dirname))
@@ -573,3 +569,4 @@ async function RunAppL(){
     console.error('Error Over here' + err)
     process.exit(1)
  })
+
