@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,6 @@ body {
   padding: 2rem;
 }
 
-/* Navigation bar */
 header nav ul {
   display: flex;
   gap: 2rem;
@@ -44,7 +43,6 @@ nav ul li:hover {
   transform: translateY(-3px);
 }
 
-/* Main container */
 #sel {
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +56,6 @@ nav ul li:hover {
   width: 100%;
 }
 
-/* Welcome section */
 #welcome {
   flex: 1;
   min-width: 280px;
@@ -89,7 +86,6 @@ nav ul li:hover {
   text-decoration: underline;
 }
 
-/* Form section */
 #form {
   flex: 1;
   min-width: 300px;
@@ -151,7 +147,6 @@ button:hover {
   animation: btnHover 1s infinite ease-in-out alternate;
 }
 
-/* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -178,7 +173,6 @@ button:hover {
   }
 }
 
-/* Responsive styles */
 @media screen and (max-width: 1024px) {
   #sel {
     flex-direction: column;
@@ -227,3 +221,4 @@ button:hover {
     padding: 10px;
   }
 }
+
