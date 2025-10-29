@@ -92,7 +92,7 @@ let checkQuery={
 const {texts,vals}=checkQuery
 
 const tot=await pool.query(texts,vals);
-if(tot.rows.length === 'undefined'){
+if(typeof tot.rows === 'undefined'){
     console.log("Inaccurate response")
 }
     else if(tot.rows.length >0) {
@@ -569,4 +569,5 @@ async function RunAppL(){
     console.error('Error Over here' + err)
     process.exit(1)
  })
+
 
