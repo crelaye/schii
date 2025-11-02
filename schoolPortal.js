@@ -134,7 +134,7 @@ if(typeof tot.rows === 'undefined'){
 app.post('/login', async (req,res)=>{
 const {FirstName,LastName,age,email,password,role,subject} = req.body;
 try{
-    
+    console.log(FirstName,LastName,age,email,password,role,subject)
 if(FirstName && LastName && age && email && password && role){
  console.log('Good to go');
 }
@@ -573,6 +573,7 @@ async function RunAppL(){
     console.error('Error Over here' + err)
     process.exit(1)
  })
+
 
 
 
