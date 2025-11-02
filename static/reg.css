@@ -201,5 +201,22 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 375px) {
+  section {
+    padding: 1rem;
+  }
 
+  h3 {
+    font-size: 24px;
+  }
+
+  form {
+    margin-right: 300px;
+    color:red;
+  }
+
+  button {
+    padding: 12px;
+  }
+}
 
