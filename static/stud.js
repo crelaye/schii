@@ -155,9 +155,9 @@
             let dike=document.getElementById("welc").textContent;
             let speech;
             if(!speechSynthesis){
-                alert("It won't work");
+                console.log("It won't work");
             }else{
-                alert("It will work");
+                console.log("It will work");
             }
             speech=new SpeechSynthesisUtterance(dike);
             speech.pitch=0.8;
@@ -177,4 +177,5 @@
         year.appendChild(option); 
     });
     const no=new Date() ;
+
     console.log(no)
