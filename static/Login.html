@@ -68,18 +68,8 @@
                 subj.style.display='none';
             }
         });
-
-        fetch('/check-access')
-       .then(res => res.json())
-       .then(data => {
-           if (data.suc && data.redirect) {
-                 window.location.href = data.redirect;
-              }else{
-                    console.log("No data to load for you in your check access...");
-                    window.location.href='/studentPayment.html';
-                }
-  });
     </script>
 </body>
 </html>
+
 
