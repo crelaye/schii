@@ -193,11 +193,12 @@ button:hover {
   }
 
   input, select {
-    padding: 10px;
+    margin-right: 100px;
   }
 
   button {
     padding: 12px;
   }
 }
+
 
