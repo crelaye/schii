@@ -19,6 +19,7 @@ header nav ul {
   display: flex;
   gap: 2rem;
   list-style: none;
+  flex-direction:row;
   justify-content: flex-end;
   margin-bottom: 2rem;
 }
@@ -55,7 +56,7 @@ h3 {
   font-size: 30px;
   font-weight: 300;
   color: #222;
-  margin-left:18px;
+  margin-left:100px;
   margin-bottom: 2rem;
   animation: fadeIn 1.5s ease-in-out;
 }
@@ -186,6 +187,7 @@ button:hover {
     padding-bottom:20px;
   }
 }
+
 
 
 
