@@ -18,8 +18,8 @@ header{
     color: gold;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom:10px;
-    margin-top:10px;
+    margin-bottom:8px;
+    margin-top:3px;
 }
 nav ul{
     text-align: right;
@@ -89,6 +89,7 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
 
 
 
