@@ -52,7 +52,7 @@ section {
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 300;
   color: #222;
   text-align: center;
@@ -186,6 +186,7 @@ button:hover {
     padding-bottom:20px;
   }
 }
+
 
 
 
