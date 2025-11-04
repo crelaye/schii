@@ -89,7 +89,6 @@ select {
   border-radius: 8px;
   font-size: 15px;
   width: 80%;
-  max-width: 400px;
   background-color: #fefefe;
   transition: all 0.3s ease;
 }
@@ -187,6 +186,7 @@ button:hover {
     padding-bottom:20px;
   }
 }
+
 
 
 
