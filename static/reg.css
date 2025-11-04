@@ -169,6 +169,14 @@ button:hover {
   input, select{    
     padding-bottom:20px;
   }
+  button {
+  padding: 14px;
+  width: 50%;
+  background-color: black;
+  color: white;
+  margin-left:20px;
+  transition: all 0.3s ease;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -185,8 +193,17 @@ button:hover {
   }
   input, select{
     padding-bottom:20px;
-  }
+  } 
+  button {
+  padding: 14px;
+  width: 50%;
+  background-color: black;
+  color: white;
+  margin-left:20px;
+  transition: all 0.3s ease;
 }
+}
+
 
 
 
