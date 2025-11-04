@@ -107,9 +107,9 @@ button {
   border: none;
   font-weight: bold;
   width: 50%;
-  max-width: 200px;
   background-color: black;
   color: white;
+  margin-left:20px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -186,6 +186,7 @@ button:hover {
     padding-bottom:20px;
   }
 }
+
 
 
 
