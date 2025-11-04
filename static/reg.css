@@ -32,11 +32,12 @@ nav ul li {
   color: black;
   border-radius: 8px;
   transition: all 0.3s ease;
+}
+#flex{
   display:flex;
   flex-direction:column;
   justify-content:flex-end;
 }
-
 nav ul li:hover {
   background: white;
   color: black;
@@ -190,6 +191,7 @@ button:hover {
     padding-bottom:20px;
   }
 }
+
 
 
 
