@@ -20,6 +20,7 @@ header{
     font-size: 20px;
     font-weight: 600;
     margin-bottom:5px;
+    padding-top:5px;
 }
 nav ul{
     text-align: right;
@@ -88,6 +89,7 @@ p{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 
 
