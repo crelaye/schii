@@ -12,11 +12,12 @@ header{
 }
 #UniName{
     text-align:left;
-    font-size: 20px;
     position: absolute;
     top: -4%;
     padding-left: 4%;
     color: gold;
+    font-size: 28px;
+    font-weight: 600;
 }
 nav ul{
     text-align: right;
@@ -84,4 +85,5 @@ p{
     color:black;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
