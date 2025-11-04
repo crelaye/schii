@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+#okay{
+  margin-bottom:70px;
+}
 body {
   font-family: 'Inter', sans-serif;
   background: linear-gradient(to right, #f6f9fc, #e3efff);
@@ -221,4 +223,5 @@ button:hover {
     padding: 10px;
   }
 }
+
 
