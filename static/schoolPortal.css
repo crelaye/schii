@@ -11,6 +11,7 @@ header{
     vertical-align: middle;
 }
 #UniName{
+    font-family: 'Inter', sans-serif;
     text-align:left;
     position: absolute;
     top: -4%;
@@ -87,6 +88,7 @@ p{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 
 
