@@ -83,6 +83,7 @@ input[type="password"],
 input[type="number"],
 select {
   padding: 12px;
+  padding-right:20px;
   margin-bottom:15px;
   border: 1.5px solid #ccc;
   border-radius: 8px;
@@ -186,5 +187,6 @@ button:hover {
     padding-bottom:20px;
   }
 }
+
 
 
