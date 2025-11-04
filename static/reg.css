@@ -82,8 +82,9 @@ input[type="email"],
 input[type="password"],
 input[type="number"],
 select {
-  padding-bottom: 12px;
-  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom:15px;
+  border: 1.5px solid #ccc;
   border-radius: 8px;
   font-size: 15px;
   width: 80%;
@@ -185,4 +186,5 @@ button:hover {
     padding-bottom:20px;
   }
 }
+
 
